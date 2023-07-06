@@ -1,0 +1,58 @@
+{
+  "seller": [
+    {
+      "name": "Anjesh Kushwaha",
+      "email": "anjesh@gmail.com",
+      "password": "ak@123",
+      "id": 1
+    },
+    {
+      "name": "ram",
+      "password": "ram@213",
+      "email": "ram122gmail.com",
+      "id": 2
+    },
+    {
+      "name": "kisan kumar",
+      "password": "kisan@123",
+      "email": "kisan@gmail.com",
+      "id": 3
+    },
+    {
+      "name": "",
+      "password": "",
+      "email": "",
+      "id": 7
+    },
+    {
+      "name": "djka",
+      "password": "qwz12",
+      "email": "agfga@gmail.com",
+      "id": 8
+    },
+    {
+      "name": "kisan kumar",
+      "password": "ssd",
+      "email": "adad",
+      "id": 9
+    },
+    {
+      "name": "kisan kumar",
+      "password": "qwesx",
+      "email": "jatin@test.com",
+      "id": 10
+    },
+    {
+      "name": "UK",
+      "password": "sqs",
+      "email": "qwqds",
+      "id": 11
+    },
+    {
+      "name": "priyanka",
+      "password": "qwe34",
+      "email": "jatin@test.com",
+      "id": 12
+    }
+  ]
+}
