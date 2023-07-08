@@ -4,6 +4,11 @@
     align-items: center;
 }
 
+.nav .logo a {
+    color: blueviolet;
+    text-decoration: none;
+}
+
 .nav h2 {
     color: blueviolet;
     margin: 0;
