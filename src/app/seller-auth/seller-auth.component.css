@@ -1,8 +1,12 @@
+.login,
+.sign-up {
+    text-align: center;
+}
+
 .seller-auth .sign-up h2,
 .seller-auth .login h2 {
     color: blueviolet;
     margin: 50px 0;
-    text-align: center;
 }
 
 .auth-toggle-link {
@@ -10,4 +14,8 @@
     text-align: center;
     cursor: pointer;
     color: blueviolet;
+}
+
+.seller-auth .error {
+    color: red;
 }

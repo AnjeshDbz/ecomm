@@ -29,13 +29,16 @@
         ngModel
       />
       <button class="form-button">Sign Up</button>
-      <a class="auth-toggle-link" (click)="openLogin()">Already Have Account? Click to Login</a>
+      <a class="auth-toggle-link" (click)="openLogin()"
+        >Already Have Account? Click to Login</a
+      >
     </form>
   </div>
 
   <!-- login -->
   <div *ngIf="showLogin" class="login">
     <h2>Seller Login</h2>
+    <p class="error">{{ authError }}</p>
     <form
       #sellerLogin="ngForm"
       (ngSubmit)="login(sellerLogin.value)"
@@ -57,7 +60,9 @@
       />
 
       <button class="form-button">Login</button>
-      <a class="auth-toggle-link" (click)="openSignUp()">Don't Have Account? Click to Sign-Up</a>
+      <a class="auth-toggle-link" (click)="openSignUp()"
+        >Don't Have Account? Click to Sign-Up</a
+      >
     </form>
   </div>
 </div>
