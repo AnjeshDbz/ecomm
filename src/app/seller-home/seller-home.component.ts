@@ -9,8 +9,23 @@ import { product } from "../data-type";
 })
 export class SellerHomeComponent {
   productList: undefined | product[];
+  productMessage: undefined | string;
   constructor(private product: ProductService) {}
   ngOnInit(): void {
+    this.list();
+  }
+  deleteProduct(id: number) {
+    console.log("test id", id);
+    this.product.deleteProduct(id).subscribe((result) => {
+      this.productMessage = "Product is Deleted";
+      this.list();
+    });
+    setTimeout(() => {
+      this.productMessage = undefined;
+    }, 3000);
+  }
+
+  list() {
     this.product.productList().subscribe((result) => {
       console.log(result);
       this.productList = result;

@@ -1,5 +1,6 @@
 {
-  "seller": [{
+  "seller": [
+    {
       "name": "anjesh kushwaha",
       "email": "anjesh@gmail.com",
       "password": "ak@123",
@@ -54,14 +55,7 @@
       "id": 12
     }
   ],
-  "products": [{
-      "name": "Iphone 15",
-      "price": "40000",
-      "category": "mobile",
-      "image": "https://images.samsung.com/is/image/samsung/assets/in/explore/brand/5-best-android-mobile-phones-2022-in-india/banner-mobile-720x761-080422.jpg?$720_N_JPG$",
-      "description": "Made by India",
-      "id": 1
-    },
+  "products": [
     {
       "name": "Sumsung",
       "price": "150000",
